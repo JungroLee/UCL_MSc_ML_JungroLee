@@ -1,0 +1,11 @@
+results/
+__pycache__/
+*.pyc
+*.pt
+!sample_data/**/*.pt
+*.log
+
+# Bundled third-party HoVer-Net code + PanNuke checkpoint (~146M): present
+# locally for a self-contained run, kept out of git for size. Restore on a
+# fresh clone with `bash external/fetch_hovernet.sh` (see external/README.md).
+external/
